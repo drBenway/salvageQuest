@@ -1,10 +1,27 @@
-# salvageQuest
-test on writing an mmo interface in angular
+# SavageQuest
 
-## Branching strategy
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
 
-Things will be auto pushed to D when a merge request is approved on the dev branch.
-Code will be auto pushed to T when a merge request into the T branch is approved
-For every feature a dedicated branch will be created. When the feature is ready, a merge request into the Dev branch is made.
-Only when merged into Dev, can an feature start to be deployed.
+## Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
