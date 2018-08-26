@@ -14,7 +14,7 @@ interface InventoryItem {
     }
     interface iArmor extends InventoryItem{
       name: string
-      armorrating: integer
+      armorrating: number
     }
     interface iWeapon extends InventoryItem{
       name: string
@@ -44,12 +44,13 @@ class MajorHealingPotion implements iPotion{
 
 /* armor */
 class breaches implements iArmor{
+  type = 'armor';
   name = "breeches";
   armorrating = 1;
 }
 interface Container {
-  slots: integer
-  type: sting;
+  slots: number
+  type: string;
 }
 
 class KnapSack implements Container {

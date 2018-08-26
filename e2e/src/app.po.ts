@@ -5,7 +5,23 @@ export class AppPage {
     return browser.get('/');
   }
 
-  getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+
+  getBag(){
+      return element(by.id('bag1'));
+  }
+
+  getBagTitle(){
+    return element(by.css('.bag .bag_title')).getText();
+  }
+  getBagCloseButton(){
+    return element(by.css('#bag1 .bag_close_btn'));
+  }
+  clickBagCloseButton(){
+    let btn = this.getBagCloseButton();
+    btn.click();
+  }
+  countSlotsInBag(){
+    let slots = $$('.slot');
+    return slots.count();
   }
 }
