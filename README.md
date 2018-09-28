@@ -1,5 +1,5 @@
 # salvageQuest
-test on writing an mmo interface in angular
+test on writing an mmo interface in angular (on hold)
 
 ## Branching strategy
 
