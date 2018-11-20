@@ -1,0 +1,12 @@
+<div class="bag" ngDraggable>
+  <div class="bag_header">
+    <div class="bag_title">
+      title
+    </div>
+    <div class="bag_close_btn">X</div>
+  </div>
+  <div class="bag_contents">
+    <app-slot *ngFor="let slot of slots"></app-slot>
+  </div>
+
+</div>

@@ -1,0 +1,12 @@
+.slot{
+  border: 1px solid;
+  border-top-color: #A8AAA4;
+  border-right-color: #A8AAA4;
+  border-bottom-color: #181A14;
+  border-left-color: #181A14;
+  border-radius: 5px;
+  background: linear-gradient(135deg, rbga(24,24,26,1) , rbga(64,61,73,0)); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  width: 64px;
+  height: 64px;
+}
