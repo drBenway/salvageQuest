@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
+import { AngularDraggableModule } from 'angular2-draggable';
+
 import { AppComponent } from './app.component';
 import { BagComponent } from './bag/bag.component';
 import { SlotComponent } from './slot/slot.component';
@@ -16,7 +18,8 @@ import { InventoryComponent } from './inventory/inventory.component';
     InventoryComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AngularDraggableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
